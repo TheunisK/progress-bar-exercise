@@ -1,0 +1,17 @@
+.progress-bar {
+    border: grey solid 2px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+
+    background: linear-gradient(to right, blue 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right;
+
+    transition: border 0.3s, background-position 4s;
+}
+
+.progress-bar:hover {
+    border: rgb(223, 32, 64) solid 2px;
+    background-position: left;
+}
